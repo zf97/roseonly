@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>roseonly官网-高端爱情信物品牌_信者得爱，爱是唯一</title>
+		<link rel="stylesheet" href="dist/css/index.min.css" type="text/css" />
+		
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="head">
+				<div class="div_lang">
+					<label>CN</label>
+					<ul>
+						<li class="hk">HK</li>
+						<li class="cn">CN</li>
+					</ul>
+				</div>
+				<a href="#" class="roseonly"></a>
+				<a href="#" class="loverose">
+					<div class="line"></div>
+				</a>
+				<a href="#" class="wedding"></a>
+				<ul class="right">
+					<li class="right_dlzc">
+						<div class="dlzc"></div>
+					</li>
+					<li class="dlzc_line"></li>
+					<li class="right_shop">
+						<a href="#" ></a>
+					</li>
+					<li id="cartNum"  class="carNum">(0)</li>
+					<li class="dlzc_line"></li>
+					<li style="float:right">
+						<a href="#" class="address"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var $uli = $("ul li");
+				var $oli = $("ol li");
+				$oli.addClass("hide");
+				$oli[0].className = "show";
+				$uli.addClass("normal");
+				$uli[0].className = "hover";
+				
+				
+				$uli.mouseover(function() {
+					var index = $(this).index();
+					$uli.removeClass().addClass("normal");
+					$(this).removeClass().addClass("hover");
+					$oli.removeClass().addClass("hide");
+					$oli.eq(index).removeClass().addClass("show");
+				});
+				
+			})
+		</script>
+
+	</body>
+
+</html>

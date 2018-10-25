@@ -1,0 +1,136 @@
+     *{
+				margin:0;
+				padding:0;
+				border:0;
+			list-style: none;
+			}
+			
+			body{
+				font-family: "微软雅黑";
+				
+			}
+			.header{
+				width:100%;
+				height:40px;
+				line-height:40px;
+				top:0;
+				left:0;
+				font-size:12px;
+				z-index:10000;
+				background:#414141;
+			}
+			.head{
+				    width: 1240px;
+				    height: 40px;
+				    margin: 0 auto;
+				    position: relative;
+				    background: #414141;
+			}
+			.div_lang{
+				float:left;
+				width:95px;
+				height:40px;
+				line-height:33px;
+				font-size:13px;
+				color:#414141;
+				position:relative;
+				cursor: pointer;
+				background:url(../img/15324244817248776.png) no-repeat;
+				background-size:auto 30%;
+				background-position-x:37px;
+				background-position-y:14px;
+				box-shadow: -3px 1px 1px rgba(0,0,0,.3)insert;
+				z-index:1;
+			}
+			.div_lang:hover{
+			  background: #565656; 
+			  box-shadow:none;
+			  -moz-box-shadow:none;
+			  -webkit-box-shadow:none;
+			  -o-box-shadow:none;
+			  -ms-box-shadow:none;
+			   background: url(../img/15324244817248776.png) no-repeat #565656;
+			   background-size: auto 30%;
+			    background-position-x: 37px;
+			    background-position-y: 14px;
+        }
+	           .div_lang:hover ul{
+					display:block;
+				}
+			.div_lang label{
+				display:block;
+				cursor: pointer;
+				padding-left:61px;
+				height:40px;
+				color:#afafaf;
+				line-height:40px;
+			}
+		
+			.div_lang ul{
+				display:none;
+				position:absolute;
+				left:0;
+				top:35px;
+				z-index:1;
+				width:94px;
+				box-sizing:border-box;
+				background-color:#565656;
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			.div_lang ul li{
+				height:35px;
+				line-height:35px;
+				text-align:left;
+			}
+			.div_lang ul li:hover{
+				background-color:#717171;
+			}
+			.div_lang ul li a{
+				display:block;
+				color:#afafaf;
+				font-size:14px;
+				text-align:center;
+			}
+			.roseonly{
+				width:128px;
+                height:40px;
+                display:block;
+                background-image:url(../img/14847113495204195.svg);
+                background-size:128px 44px;
+                position:absolute;
+                left:94px;
+                background-color:#414141;
+                z-index:1;
+			}
+			.loverose{
+				width:128px;
+				height:40px;
+				display:block;
+				float:left;
+				left:223px;
+				position:absolute;
+				background-image:url(../img/15324224079333527.svg);
+				 background-color: #414141;
+				background-size: 128px 40px;
+			    background-color: #414141;
+   				box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.3) inset;
+   
+
+			}
+			.wedding{
+			   font-size: 14px;
+			    width: 128px;
+			    height: 40px;
+			    line-height: 40px;
+			    text-align: center;
+			    display: block;
+			    float: left;
+			    left: 256px;
+			    background-image: url(../img/15324227380097689.svg);
+			    background-size: 128px 40px;
+			    position: absolute;
+			    left: 351px;
+   
+}
